@@ -10,6 +10,15 @@ Adipisicing aute excepteur excepteur eu mollit reprehenderit adipisicing. Adipis
 
 Amet occaecat do commodo nostrud. Dolore esse exercitation in nulla qui nostrud minim et deserunt non aute aliquip ea aliqua. Minim aliqua exercitation excepteur eu nisi duis eiusmod sint voluptate eiusmod enim. Incididunt labore in consequat esse ad sint. Voluptate ipsum dolore aliquip fugiat pariatur et.
 
-```
-Eiusmod ea labore dolore nulla magna labore ipsum dolor amet Lorem adipisicing. Eu esse consequat velit quis fugiat labore culpa. Fugiat commodo exercitation tempor mollit nostrud.
+```csharp
+public class SampleHttpClient
+{
+    private readonly HttpClient _http;
+
+    public SampleHttpClient(HttpClient http)
+    {
+        ArgumentNullException.ThrowIfNull(http);
+        _http = http;
+    }
+}
 ```
