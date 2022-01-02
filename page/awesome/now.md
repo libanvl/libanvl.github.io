@@ -1,6 +1,9 @@
 ---
-title: This is Now, And it's Awesome
 published: false
+title: This is Now, And it's Awesome
+tags: 
+    - Awesome
+    - Now
 ---
 
 # Adipisicing aute excepteur
